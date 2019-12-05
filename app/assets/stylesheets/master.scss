@@ -1,6 +1,6 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
-
+@import "font-awesome";
 
 .navbar {
   font-family: 'Notable', sans-serif;
@@ -110,4 +110,17 @@ body {
   padding: 20px;
   font-family: 'Notable', sans-serif;
   font-weight: 100;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding: 8px;
 }
